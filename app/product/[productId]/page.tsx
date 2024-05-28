@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ProductDetails() {
+function ProductDetails({params}: {params: {productId: string}}) {
   return (
-    <div>Prodcut Details</div>
+    <div>Prodcut Details {params.productId}</div>
   )
 }
 
